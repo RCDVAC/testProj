@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="testConnection">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.11">
+    <root id="1">
+      <ServerVersion>19.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="IVAILO">
+      <ObjectId>126</ObjectId>
+      <IntrospectionTimestamp>2022-07-06.15:24:16</IntrospectionTimestamp>
+      <CreatedTimestamp>2022-07-06.13:22:08</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.15:24:15</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>22</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="GSMUSER">
+      <ObjectId>23</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="DIP">
+      <ObjectId>24</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="DBSFWUSER">
+      <ObjectId>36</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="ORACLE_OCM">
+      <ObjectId>40</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="SYS$UMF">
+      <ObjectId>49</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="DBSNMP">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="APPQOSSYS">
+      <ObjectId>58</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="GSMCATUSER">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="GGSYS">
+      <ObjectId>63</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="XDB">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="ANONYMOUS">
+      <ObjectId>66</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="WMSYS">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="OJVMSYS">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="CTXSYS">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="ORDSYS">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="ORDDATA">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="ORDPLUGINS">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>91</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="MDSYS">
+      <ObjectId>92</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="OLAPSYS">
+      <ObjectId>95</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="MDDATA">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="LBACSYS">
+      <ObjectId>100</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="DVF">
+      <ObjectId>102</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="PDBADMIN">
+      <ObjectId>105</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="HR">
+      <ObjectId>106</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="BORKO">
+      <ObjectId>108</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="TIS">
+      <ObjectId>112</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="RADI">
+      <ObjectId>114</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="TIS_BORICA">
+      <ObjectId>115</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="PMON">
+      <ObjectId>117</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="KMC_ATM_RKL">
+      <ObjectId>119</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="BORKO1">
+      <ObjectId>121</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="NIKI">
+      <ObjectId>124</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="49" parent="2" name="CUSTOMER_ID_SEQ">
+      <ObjectId>84148</ObjectId>
+      <CreatedTimestamp>2022-07-06.13:49:17</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.13:49:17</ModifiedTimestamp>
+      <SequenceIdentity>0..9999999999</SequenceIdentity>
+      <Cycled>1</Cycled>
+    </sequence>
+    <sequence id="50" parent="2" name="DELIVERY_TYPE_ID_SEQ">
+      <ObjectId>84149</ObjectId>
+      <CreatedTimestamp>2022-07-06.13:49:46</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.13:49:46</ModifiedTimestamp>
+      <SequenceIdentity>0..9999999999</SequenceIdentity>
+      <Cycled>1</Cycled>
+    </sequence>
+    <sequence id="51" parent="2" name="ORDER_ID_SEQ">
+      <ObjectId>84150</ObjectId>
+      <CreatedTimestamp>2022-07-06.13:49:59</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.13:49:59</ModifiedTimestamp>
+      <SequenceIdentity>0..9999999999</SequenceIdentity>
+      <Cycled>1</Cycled>
+    </sequence>
+    <sequence id="52" parent="2" name="PAYMENT_TYPE_ID_SEQ">
+      <ObjectId>84151</ObjectId>
+      <CreatedTimestamp>2022-07-06.13:50:22</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.13:50:22</ModifiedTimestamp>
+      <SequenceIdentity>0..9999999999</SequenceIdentity>
+      <Cycled>1</Cycled>
+    </sequence>
+    <sequence id="53" parent="2" name="PRODUCT_ID_SEQ">
+      <ObjectId>84152</ObjectId>
+      <CreatedTimestamp>2022-07-06.13:50:50</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.13:50:50</ModifiedTimestamp>
+      <SequenceIdentity>0..9999999999</SequenceIdentity>
+      <Cycled>1</Cycled>
+    </sequence>
+    <sequence id="54" parent="2" name="PRODUCT_ORDER_ID_SEQ">
+      <ObjectId>84153</ObjectId>
+      <CreatedTimestamp>2022-07-06.13:51:14</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.13:51:14</ModifiedTimestamp>
+      <SequenceIdentity>0..9999999999</SequenceIdentity>
+      <Cycled>1</Cycled>
+    </sequence>
+    <table id="55" parent="2" name="CUSTOMER">
+      <ObjectId>84136</ObjectId>
+      <CreatedTimestamp>2022-07-06.13:22:08</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.13:22:08</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="56" parent="2" name="DELIVERY_TYPE">
+      <ObjectId>84144</ObjectId>
+      <CreatedTimestamp>2022-07-06.13:38:56</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.13:38:56</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="57" parent="2" name="ORDER">
+      <ObjectId>84140</ObjectId>
+      <CreatedTimestamp>2022-07-06.13:32:41</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.15:24:15</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="58" parent="2" name="PAYMENT_TYPE">
+      <ObjectId>84142</ObjectId>
+      <CreatedTimestamp>2022-07-06.13:38:04</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.13:38:04</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="59" parent="2" name="PRODUCT">
+      <ObjectId>84138</ObjectId>
+      <CreatedTimestamp>2022-07-06.13:28:23</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.15:07:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="60" parent="2" name="PRODUCT_ORDER">
+      <ObjectId>84146</ObjectId>
+      <CreatedTimestamp>2022-07-06.13:42:40</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.13:43:29</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="61" parent="55" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="55" name="FIRST_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(15 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="55" name="LAST_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(15 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="55" name="AGE">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="65" parent="55" name="SYS_C0016161">
+      <ObjectId>84137</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2022-07-06.13:22:08</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.13:22:08</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="66" parent="55" name="SYS_C0016161">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2022-07-06.13:22:08</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0016161</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="67" parent="56" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="56" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="56" name="COMMON_CODE">
+      <Position>3</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="70" parent="56" name="SYS_C0016181">
+      <ObjectId>84145</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2022-07-06.13:38:56</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.13:38:56</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="71" parent="56" name="SYS_C0016181">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2022-07-06.13:38:56</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0016181</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="72" parent="57" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="57" name="DESTINATION_COUNTRY">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="57" name="DISTINATION_CITY">
+      <Position>3</Position>
+      <DataType>VARCHAR2(128 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="75" parent="57" name="DESTINATION_ADRESS">
+      <Position>4</Position>
+      <DataType>VARCHAR2(128 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="76" parent="57" name="CUSTOMER_ID">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="57" name="PAYMENT_TYPE_ID">
+      <Position>6</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="57" name="DELIVERY_TYPE_ID">
+      <Position>7</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="79" parent="57" name="SYS_C0016173">
+      <ObjectId>84141</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2022-07-06.13:32:41</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.13:32:41</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="80" parent="57" name="SYS_C0016173">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2022-07-06.13:32:41</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0016173</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="81" parent="57" name="ORDER_CUSTOMER_ID_FK">
+      <ModifiedTimestamp>2022-07-06.13:46:10</ModifiedTimestamp>
+      <ColNames>CUSTOMER_ID</ColNames>
+      <RefSchemaName>IVAILO</RefSchemaName>
+      <RefTableName>CUSTOMER</RefTableName>
+      <RefKeyName>SYS_C0016161</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="82" parent="57" name="ORDER_PAYMENT_TYPE_ID_FK">
+      <ModifiedTimestamp>2022-07-06.13:46:10</ModifiedTimestamp>
+      <ColNames>PAYMENT_TYPE_ID</ColNames>
+      <RefSchemaName>IVAILO</RefSchemaName>
+      <RefTableName>PAYMENT_TYPE</RefTableName>
+      <RefKeyName>SYS_C0016177</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="83" parent="57" name="ORDER_DELIVERY_TYPE_ID_FK">
+      <ModifiedTimestamp>2022-07-06.13:46:10</ModifiedTimestamp>
+      <ColNames>DELIVERY_TYPE_ID</ColNames>
+      <RefSchemaName>IVAILO</RefSchemaName>
+      <RefTableName>DELIVERY_TYPE</RefTableName>
+      <RefKeyName>SYS_C0016181</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="84" parent="58" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="58" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="58" name="COMMON_CODE">
+      <Position>3</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="87" parent="58" name="SYS_C0016177">
+      <ObjectId>84143</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2022-07-06.13:38:04</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.13:38:04</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="88" parent="58" name="SYS_C0016177">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2022-07-06.13:38:04</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0016177</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="89" parent="59" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="59" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="59" name="PRICE">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <index id="92" parent="59" name="SYS_C0016165">
+      <ObjectId>84139</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2022-07-06.13:28:23</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.13:28:23</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="93" parent="59" name="SYS_C0016165">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2022-07-06.13:28:23</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0016165</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="94" parent="60" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="60" name="PRODUCT_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="60" name="ORDER_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="97" parent="60" name="SYS_C0016185">
+      <ObjectId>84147</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2022-07-06.13:42:40</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-06.13:42:40</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="98" parent="60" name="SYS_C0016185">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2022-07-06.13:42:40</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0016185</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="99" parent="60" name="PRODUCT_ORDER_PRODUCT_ID_FK">
+      <ModifiedTimestamp>2022-07-06.13:42:40</ModifiedTimestamp>
+      <ColNames>PRODUCT_ID</ColNames>
+      <RefSchemaName>IVAILO</RefSchemaName>
+      <RefTableName>PRODUCT</RefTableName>
+      <RefKeyName>SYS_C0016165</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="100" parent="60" name="PRODUCT_ORDER_ORDER_ID_FK">
+      <ModifiedTimestamp>2022-07-06.13:43:29</ModifiedTimestamp>
+      <ColNames>ORDER_ID</ColNames>
+      <RefSchemaName>IVAILO</RefSchemaName>
+      <RefTableName>ORDER</RefTableName>
+      <RefKeyName>SYS_C0016173</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+  </database-model>
+</dataSource>
